@@ -3,6 +3,7 @@ import "../CheckoutProduct.css";
 import { useStateValue } from "../StateProvider";
 
 function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
+  // eslint-disable-next-line
   const [{ basket }, dispatch] = useStateValue();
 
   const removeFromBasket = () => {
@@ -15,7 +16,7 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
 
   return (
     <div className="checkoutProduct">
-      <img className="checkoutProduct__image" src={image} />
+      <img className="checkoutProduct__image" src={image} alt="" />
 
       <div className="checkoutProduct__info">
         <p className="checkoutProduct__title">{title}</p>
