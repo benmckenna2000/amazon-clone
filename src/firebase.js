@@ -1,13 +1,13 @@
 import firebase from "firebase";
 // eslint-disable-next-line
 const firebaseConfig = {
-  apiKey: "AIzaSyA1rMyHexpB91lpQmpHZJUFuGZbgGhRG0c",
-  authDomain: "clone-47a9d.firebaseapp.com",
-  projectId: "clone-47a9d",
-  storageBucket: "clone-47a9d.appspot.com",
-  messagingSenderId: "242569356808",
-  appId: "1:242569356808:web:bde96d9843861195da13bd",
-  measurementId: "G-2BQXSBZWWT",
+  apiKey: "AIzaSyBWyWqmnDspatu_Fe2MT5OmffkXgrqV-Tg",
+  authDomain: "clone-bd22e.firebaseapp.com",
+  projectId: "clone-bd22e",
+  storageBucket: "clone-bd22e.appspot.com",
+  messagingSenderId: "537871846319",
+  appId: "1:537871846319:web:473f5001877a27447abd5a",
+  measurementId: "G-F236Y066G9",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
