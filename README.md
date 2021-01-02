@@ -31,7 +31,7 @@ real use case, so therefore there's no need to implement the real version of Str
 ## Dependencies used:
 
 * React 
-  *the javascript library used to make this app
+ *the javascript library used to make this app
 * React-Router-Dom
   *used to setup different routes on the app, e.g "/orders" for orders
 * Material-ui/core and Material-ui/icons
