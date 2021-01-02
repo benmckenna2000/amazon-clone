@@ -47,21 +47,22 @@ able to use mock card details to test whether or not the functionality behind th
 
 ### Authentication
 
-Firebase makes it so easy to handle user authentication, it's as simple as creating 
-a firebase file for things such as my firebaseConfig and calling on firebase.auth
+Firebase makes user authentication so easy, all you have to do is enable a sign in method
+on the Firebase website and write out the functionality that Firebase provides for each method.
 
 ### Firestore
 
 Firestore is a real time database where the data from a placed order will be sent.
+
 Firestore is also really easy to use for retrieving that data as well, and if you use the app you'll be 
-able to see that once you've placed an order, it will be displayed in the orders section, you can access this from the header
+able to see that once you've placed an order, it will be displayed in the orders section, you can access this from the header.
 
 ### Functions
 
 Firebase Functions allowed me to have a backend for the site without having to make my own API, all I did was use the command 'firebase init' and selected
 the functions option on the CLI. 
 
-Inside of the newly created functions folder is an index.js with all my server code already written out
+Inside of the newly created functions folder is an index.js file, with all the server code already written out.
 
 The backend was used to handle stripe payments.
 
