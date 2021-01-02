@@ -31,17 +31,17 @@ real use case, so therefore there's no need to implement the real version of Str
 ## Dependencies used:
 
 * React 
- *the javascript library used to make this app
+  *the javascript library used to make this app
 * React-Router-Dom
- *used to setup different routes on the app, e.g "/orders" for orders
+  *used to setup different routes on the app, e.g "/orders" for orders
 * Material-ui/core and Material-ui/icons
- *used to import icons in for things such as the basket and search icon
+  *used to import icons in for things such as the basket and search icon
 * Stripe-Js & React-Stripe-Js
- *used to process payments on the site
+  *used to process payments on the site
 * Axios
- *used to get a client secret so that stripe can process the payment 
+  *used to get a client secret so that stripe can process the payment 
 * React-Currency-Format
- *used to format the price of my products in the app
+  *used to format the price of my products in the app
 
 
 
