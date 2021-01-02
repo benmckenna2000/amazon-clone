@@ -5,16 +5,17 @@
 
 ### https://clone-bd22e.firebaseapp.com/
 
-The app is deployed using firebase hosting and includes the use of other firebase technology including, authentication, 
-cloud firestore and functions for the back end.
+The app is deployed using firebase hosting.
 
 ## Demo account
 
 ### Email: 123@outlook.com
-
 ### Password: 123123
 
-This account has been made with the purpose of testing the website, nobody wants to waste their time creating an account!
+This account has been made with the purpose of testing the App
+
+Nobody wants to waste their time creating an account!
+
 With this login you will be able to access all features of the site.
 
 ## Demo payment details
@@ -25,8 +26,7 @@ With this login you will be able to access all features of the site.
 ### ZIP: 424242
 
 This application uses stripe to handle payments, when I set it up I used the test key, which allows us to be
-able to use mock card details to test whether or not the functionality behind payments works, this site is also just for show and not a
-real use case, so therefore there's no need to implement the real version of Stripe.
+able to use mock card details to test whether or not the functionality behind the payments work.
 
 ## Dependencies used:
 
@@ -56,5 +56,12 @@ Firestore is a real time database where the data from a placed order will be sen
 Firestore is also really easy to use for retrieving that data as well, and if you use the app you'll be 
 able to see that once you've placed an order, it will be displayed in the orders section, you can access this from the header
 
+### Functions
 
+Firebase Functions allowed me to have a backend for the site without having to make my own API, all I did was use the command 'firebase init' and selected
+the functions option on the CLI. 
+
+Inside of the newly created functions folder is an index.js with all my server code already written out
+
+The backend was used to handle stripe payments.
 
