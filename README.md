@@ -43,7 +43,18 @@ real use case, so therefore there's no need to implement the real version of Str
 * React-Currency-Format
   * used to format the price of my products in the app
 
+## Why Firebase?
 
+### Authentication
+
+Firebase makes it so easy to handle user authentication, it's as simple as creating 
+a firebase file for things such as my firebaseConfig and calling on firebase.auth
+
+### Firestore
+
+Firestore is a real time database where the data from a placed order will be sent.
+Firestore is also really easy to use for retrieving that data as well, and if you use the app you'll be 
+able to see that once you've placed an order, it will be displayed in the orders section, you can access this from the header
 
 
 
