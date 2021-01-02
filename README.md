@@ -26,6 +26,21 @@ With this login you will be able to access all features of the site.
 
 This application uses stripe to handle payments, when I set it up I used the test key, which allows us to be
 able to use mock card details to test whether or not the functionality behind payments works, this site is also just for show and not a
-real use case, so therefore there's no need to implement the real version of Stripe
+real use case, so therefore there's no need to implement the real version of Stripe.
+
+## Dependencies used:
+
+* Material-ui/core
+* Material-ui/icons
+* Stripe-Js
+* React-Stripe-js
+* Axios
+* Firebase
+* React
+* React-Currency-Format
+* React-Dom 
+* React-Router-Dom
+
+
 
 
